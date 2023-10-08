@@ -1,6 +1,6 @@
 # OKC Like Revealer
 ## How to use
-1. Visit https://www.okcupid.com/who-likes-you.  
+1. Visit https://www.okcupid.com/who-likes-you (desktop).  
 2. Press F12 to access the DevTools and switch to "Console".  
 3. Wait for the site to load completely.  
 4. Paste in the script and hit enter.
