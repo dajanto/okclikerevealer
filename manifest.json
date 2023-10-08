@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "OKC Like Revealer",
+  "version": "1.0",
+  "description": "Reveals first 8 likes",
+  "permissions": [
+    "activeTab"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["*://www.okcupid.com/who-likes-you"], 
+      "js": ["content.js"]
+    }
+  ],
+  "action": {
+    "default_popup": "",
+    "default_icon": {
+      "16": "images/icon16.png",
+      "48": "images/icon48.png",
+      "128": "images/icon128.png"
+    }
+  }
+}
