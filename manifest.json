@@ -2,14 +2,15 @@
   "manifest_version": 3,
   "name": "OKC Like Revealer",
   "version": "1.0",
-  "description": "Reveals first 8 likes",
+  "description": "Reveals likes",
   "permissions": [
     "activeTab"
   ],
   "content_scripts": [
     {
       "matches": ["*://www.okcupid.com/who-likes-you"], 
-      "js": ["content.js"]
+      "js": ["content.js"],
+      "run_at":"document_idle"
     }
   ],
   "action": {
